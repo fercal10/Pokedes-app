@@ -15,7 +15,7 @@ export function PokemonCard({ item }: poke) {
     const rutas =useRouter();
     let image = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${item.id}.svg`;
     return (
-        <Card shadow="sm" isPressable onPress={() => rutas.push("/pokemon/"+item.name)}>
+        <Card className="hover:scale-110 " shadow="sm" isPressable onPress={() => rutas.push("/pokemon/"+item.name)}>
             <CardBody className="overflow-visible p-0">
                 <Image
                     shadow="sm"

@@ -21,7 +21,7 @@ export const Navbar = () => {
 
 			>
 				<NavbarItem className="">
-					<Link href='/'>
+					<Link className="hover:text-white text-2xl font-bold hover:scale-110" href='/'>
 
 						<h3>Pokemon</h3>
 					</Link>

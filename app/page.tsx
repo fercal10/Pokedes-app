@@ -1,4 +1,4 @@
-
+"use client"
 import ListCardPokemon from "@/components/ListCardPokemon";
 import { Pokeapi } from "@/interface/pokeapi";
 import axios from 'axios';
