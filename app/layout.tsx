@@ -10,10 +10,10 @@ import clsx from "clsx";
 
 export const metadata: Metadata = {
 	title: {
-		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`,
+		default: "Pokedex",
+		template: "",
 	},
-	description: siteConfig.description,
+	description: "looking for pokemons",
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
