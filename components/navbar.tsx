@@ -1,11 +1,8 @@
+"use client"
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
-	NavbarMenu,
-	NavbarMenuToggle,
-	NavbarBrand,
 	NavbarItem,
-	NavbarMenuItem,
 } from "@nextui-org/navbar";
 
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -21,13 +18,13 @@ export const Navbar = () => {
 
 			<NavbarContent
 				className="hidden sm:flex basis-1/5 sm:basis-full justify-around"
-				
+
 			>
 				<NavbarItem className="">
-				<Link href='/'>
+					<Link href='/'>
 
-					<h3>Pokemon</h3>
-				</Link>
+						<h3>Pokemon</h3>
+					</Link>
 				</NavbarItem>
 
 
@@ -39,10 +36,10 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-			<NavbarItem className="">
-				<Link href='/'>
-					<h3>Pokemon</h3>
-				</Link>
+				<NavbarItem className="">
+					<Link href='/'>
+						<h3>Pokemon</h3>
+					</Link>
 				</NavbarItem>
 
 				<ThemeSwitch />
