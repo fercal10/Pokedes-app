@@ -1,7 +1,5 @@
 "use client"
-import { Pokeapi } from '@/interface/pokeapi';
 import React, { useState } from 'react'
-import axios from 'axios';
 import { PokemonCard } from './PokemonCard';
 import { Input } from '@nextui-org/input';
 import { Kbd } from '@nextui-org/kbd';
