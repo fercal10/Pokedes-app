@@ -1,4 +1,3 @@
-"use client"
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
@@ -10,10 +9,10 @@ import clsx from "clsx";
 
 export const metadata: Metadata = {
 	title: {
-		default: "Pokedex",
-		template: "",
+		default: siteConfig.name,
+		template: `%s - ${siteConfig.name}`,
 	},
-	description: "looking for pokemons",
+	description: siteConfig.description,
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
